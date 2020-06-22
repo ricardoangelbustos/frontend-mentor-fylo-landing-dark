@@ -407,6 +407,18 @@ body{
     }
 }
 @media (max-width: 400px){
+    .intro{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .icon{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .card{
+        width: 95%;
+        margin: 50px auto;
+    }
     .nav{
         display: none;
     }
