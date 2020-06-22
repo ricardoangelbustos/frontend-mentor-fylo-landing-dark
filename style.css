@@ -1,0 +1,411 @@
+/*font-family: 'Open Sans', sans-serif; BODY
+font-family: 'Raleway', sans-serif; TITULOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+body{
+    background-color: #1c2230;
+}
+.container{
+    width: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 20px 0 40px;
+}
+.logo{
+    width: 50%;
+}
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav a{
+    margin-right: 5%;
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.intro{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.intro img{
+    width: 40%;
+}
+.intro h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.intro p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.intro button{
+    background-color: #42b0d1;
+    color: white;
+    width: 15%;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: none;
+    margin-top: 20px;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.row{
+    width: 100%;
+}
+.icon{
+    margin-top: 40px;
+}
+.icon img{
+    width: 10%;
+}
+.icon h4{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.icon p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.left-card img{
+    width: 100%;
+}
+.right-card h3{
+    color: white;
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+}
+.right-card p{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.right-card a{
+    width: 31%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: underline;
+    color: #42b0d1;
+    margin-top: 20px;
+}
+.opinions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+.opinion{
+    background-color: #21293c;
+    width: 25%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+.opinion p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.author{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+.author img{
+    width: 20%;
+    border-radius: 15px;
+}
+.author h4{
+    color: white;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.author span{
+    color: gray;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.get{
+    background-color: #21293c;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 40px 0 40px 0;
+    position: relative;
+    top: 110px;
+}
+.get h2{
+    color: white;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+.get p{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.email{
+    margin-top: 20px;
+}
+.email input{
+    width: 50%;
+    height: 40px;
+    margin-right: 1%;
+    border-radius: 15px;
+    border: none;
+    text-indent: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.email button{
+    background-color: #42b0d1;
+    color: white;
+    width: 15%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 35px;
+    border: none;
+}
+.footer{
+    background-color: #0c1524;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px 0 100px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.ubication{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: white;
+}
+.two{
+    width: 12%;
+}
+.contact{
+    margin-top: 20px;
+    color: white;
+}
+.contact img{
+    margin-right: 1%;
+}
+.three{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.column a:hover{
+    text-decoration: underline;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+.four i{
+    color: white;
+    font-size: 20px;
+    margin-right: 2%;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}
+.four i:hover{
+    background-color: white;
+    color: #1c2230;
+    cursor: pointer;
+}
+@media (max-width: 1100px){
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-card{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .right-card a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .opinions{
+        display: flex;
+        flex-direction: column;
+    }
+    .opinion{
+        margin-top: 20px;
+        width: 70%;
+        text-align: center;
+    }
+    .author{
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .one{
+        width: 30%;
+    }
+    .two{
+        width: 30%;
+        margin-top: 10px;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .three{
+        width: 30%;
+        margin-top: 10px;
+    }
+    .four{
+        width: 30%;
+        margin-top: 30px;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+}
+@media (max-width: 745px){
+    .intro h2{
+        font-size: 30px;
+    }
+    .intro p{
+        font-size: 15px;
+    }
+    .intro button{
+        width: 50%;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .email input{
+        width: 80%;
+    }
+    .email button{
+        width: 50%;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 400px){
+    .nav{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .intro h2{
+        font-size: 20px;
+    }
+    .intro p{
+        font-size: 14px;
+    }
+    .right-card h3{
+        font-size: 23px;
+    }
+    .right-card p{
+        font-size: 15px;
+    }
+    .opinion{
+        width: 95%;
+    }
+    .get{
+        width: 95%;
+    }
+    .one{
+        width: 100%;
+    }
+    .ubication{
+        justify-content: space-around;
+    }
+    .two{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .three{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .four{
+        width: 100%;
+        justify-content: space-around;
+    }
+}
