@@ -66,6 +66,15 @@ body{
     border-radius: 35px;
     border: none;
     margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    transition: 500ms;
+}
+.intro button:hover{
+    cursor: pointer;
+    color: #42b0d1;
+    background-color: #1c2230;
+    border: 1px solid #42b0d1;
 }
 .icons{
     width: 100%;
@@ -81,6 +90,7 @@ body{
 }
 .icon img{
     width: 10%;
+    height: 60px;
 }
 .icon h4{
     margin-top: 10px;
@@ -122,6 +132,7 @@ body{
     text-decoration: underline;
     color: #42b0d1;
     margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 .opinions{
     width: 100%;
@@ -200,11 +211,20 @@ body{
 .email button{
     background-color: #42b0d1;
     color: white;
-    width: 15%;
+    width: 25%;
     height: 40px;
     font-size: 15px;
     border-radius: 35px;
     border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    transition: 500ms;
+}
+.email button:hover{
+    cursor: pointer;
+    color: #42b0d1;
+    background-color: #1c2230;
+    border: 1px solid #42b0d1;
 }
 .footer{
     background-color: #0c1524;
@@ -222,6 +242,9 @@ body{
     justify-content: space-between;
     margin-top: 20px;
     color: white;
+}
+.ubication img{
+    height: 20px;
 }
 .two{
     width: 12%;
@@ -274,6 +297,17 @@ body{
     color: #1c2230;
     cursor: pointer;
 }
+.sign{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.sign a{
+    text-decoration: none;
+    color: royalblue;
+}
+.sign a:hover{
+    border-bottom: 1px solid royalblue;
+}
 @media (max-width: 1100px){
     .card{
         display: flex;
@@ -293,6 +327,10 @@ body{
     .icons{
         display: flex;
         flex-direction: column;
+    }
+    .icon img{
+        width: 5%;
+        height: 50px;
     }
     .row{
         display: flex;
@@ -363,6 +401,10 @@ body{
         width: 50%;
         margin-top: 10px;
     }
+    .icon img{
+        width: 8%;
+        height: 45px;
+    }
 }
 @media (max-width: 400px){
     .nav{
@@ -386,6 +428,10 @@ body{
     }
     .opinion{
         width: 95%;
+    }
+    .icon img{
+        width: 12%;
+        height: 45px;
     }
     .get{
         width: 95%;
